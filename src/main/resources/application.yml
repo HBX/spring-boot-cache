@@ -1,0 +1,14 @@
+#server config
+server:
+  port: 8080
+  tomcat.uri-encoding: UTF-8
+
+spring:
+  application:
+    name: spring-boot-cache
+  cache:
+    caffeine:
+      spec: maximumSize=1000,expireAfterWrite=3s
+    type: caffeine
+    cache-names:
+      - user

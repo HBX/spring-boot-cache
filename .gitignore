@@ -1,0 +1,46 @@
+# Created by .ignore support plugin (hsz.mobi)
+
+# docker
+docker-compose.yml
+
+# eclipse
+.project
+
+# Subversion
+.svn
+
+# Java class files
+*.class
+
+# Gradle files
+.gradle/
+build/
+
+# Log Files
+logs/
+
+# JetBrains
+.settings
+.idea
+*.iml
+
+
+# Backups
+*~
+*.bak
+*.backup
+*.orig
+
+# Output
+out/
+target/
+test/
+
+# Others
+.DS_Store
+.Thumbs.db
+*.apk
+dcommit
+rebase
+
+
